@@ -1,0 +1,130 @@
+ body {
+    margin-left: auto;
+	  margin-top: 0px;
+	  margin-right: auto;
+	  margin-bottom: 0px;
+	  background:#f6f6f6;
+  }
+  body p {
+    font-family: Corbel;
+    font-size: 24px;
+  }
+  .container {
+    max-width: 650px;
+    text-align: center;
+    background-color: #ffff;
+  }
+  .stepper {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Superior*/
+  .content {
+    display: flex;
+    flex-direction: column;
+    color: #616161;
+    height: 100hv;
+  }
+  .top-content {
+    color: #ff671bff;
+    font-family: calibri;
+    font-size: 30px;
+    text-transform:none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .buttons-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .buttons-content button {
+    box-shadow: 0px 3px 5px rgb(119, 119, 119);
+    color: #ff671bff;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #ff671bff;
+    border-style: solid;
+    background-color: #ffff;
+    margin-top: 5px;
+  }
+  .buttons-content :hover {
+    color: #ffff;;
+    border-radius: 5px;
+    background-color: #ff671bff;
+  }
+  .bottom-content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-content p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+  }
+  .buttons-bottom button { 
+    box-shadow: 0px 3px 5px rgb(119, 119, 119);
+    color: #ff671bff;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #ff671bff;
+    border-style: solid;
+    background-color: #ffff;
+  }
+  .buttons-bottom :hover {
+    color: #ffff;;
+    border-radius: 5px;
+    background-color: #ff671bff;
+  }
+  .contact-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact img {
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .text-bottom {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .text-bottom a{
+    text-decoration: none;
+    color: #ff671bff;
+  }
+ /*Inferior*/
+  .footer {
+    display: flex;
+    flex-direction:initial;
+    justify-content: space-between;
+    background-color: #c4c4c4ff;
+    max-height: 100px;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-width: 650px;
+  }
+  .text-footer {
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    max-width: 160px;
+  }
