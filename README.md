@@ -9,7 +9,7 @@
 # Vita3K summary
 - Version: v0.1.6 
 - Build number: 2877-97c43b23
-- Commit hash: https://github.com/vita3k/vita3k/commit/[commit hash] <!-- Replace "[commit]" with commit hash -->
+- Commit hash: https://github.com/vita3k/vita3k/commit/[hash] <!-- Replace "[commit]" with commit hash -->
 - CPU backend: Dynarmic     <!-- As of today Vita3K uses two CPU backend engines to run games: Unicorn and Dynarmic.
                             When testing games Dynarmic should be prefered as it normally gives better results than Unicorn
                             You can change the CPU backend on the emu settings -->
